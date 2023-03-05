@@ -8,15 +8,17 @@
 // Symbol("Frnklin") // symbol
 
 
-// let let wat;   //구문 오류
-// console.blub("Nothing is worth more than laughter");    //타입 오류
+// let let wat;                                            //구문 오류
+// console.blub("Nothing is worth more than laughter");    //타입 오류 //코드가 실행되면 무언가 충돌하거나 예기치 않게 작동할 수 있음을 나타냅니다.
 
+// 할당 가능성 (assignability)
 // let lastName = 'Joo';
-// lastName = true; // 할당 가능성 (assignability)
+// lastName = true;
 
-// let rocker:string;    //타입 어노테이션(Type annotation)
+//타입 어노테이션(Type annotation)
+// let rocker:string;
 // rocker = "Hank Joo";
-//rocker =1;
+// rocker = 1;
 
 // let rapper = "Queen Latifah";   //타입을 이미 알고 있음.
 // rapper.length;
@@ -29,6 +31,7 @@
 // };
 //
 // cher.middleName;
+
 
 //둘중에 하나..undefined 혹은 string
 //union 선언 순서는 중요하지 않다고 함.
